@@ -16,6 +16,33 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="#banner">Home</a></li>
+										<li><a href="#about">About Me</a></li>
+										<li><a href="#skills">Technical Skills</a></li>
+										<li><a href="#experiences">Professional Experiences</a></li>
+										<li><a href="#projects">Data Science Projects</a></li>
+										<li><a href="#contact">Get in touch</a></li>
+									</ul>
+								</nav>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Jonatas Vieira. Template: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
@@ -24,9 +51,8 @@
 								<header id="header">
 									<a href="index.html" class="logo"><strong>Data Science</strong> Portfolio</a>
 									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									</ul>
+									<a href="#sidebar" class="toggle">Toggle</a>
 								</header>
 
 							<!-- Banner -->
@@ -38,7 +64,6 @@
 										</header>
 										<p>Here you'll find a collection of projects that blend data, strategy, and real-world problem solving. Each one reflects how I approach challenges — with curiosity, structure, and a focus on impact.</p>
 										<p>You'll also get a glimpse of my professional journey and the methods I use to turn raw data into clear insights. Whether it's modeling, visualization, or analysis, this space brings it all together.</p>
-										<p>If you're interested in learning more or collaborating, don't hesitate to reach out via the links provided at the bottom of the page. </p>
 										<p>If something catches your eye or you'd like to collaborate, feel free to reach out through the links below. I'm always open to good conversations and new ideas.</p>
 
 									</div>
@@ -49,25 +74,25 @@
 
 
 								<!-- About me -->
-									<section>
-										<header class="main">
-											<h1>About me</h1>
+									<section id="about">
+										<header class="major">
+											<h2>About me</h2>
 										</header>
 
 										<!-- Content -->
-											<h2 id="content">Hello! I am Jonatas</h2>
+											<h3>Hello! I am Jonatas</h3>
 
 											<p>I’m a Data Scientist with a Master’s in Economics from the Federal University of Pernambuco, and I’m currently pursuing a PhD in Computer Engineering, focusing on neural networks and their applications in forecasting and causal inference. I’m passionate about using data to untangle complex problems and turn them into clear, actionable strategies. Right now, I work at Paipe, where I focus on time series modeling to support strategic decisions.</p>
   											<p>Before that, I honed my skills at Datagro, where I automated data pipelines in Python and ran econometric analyses to uncover financial insights — like returns and price elasticity. At Itaú Unibanco, one of Latin America’s largest banks, I built machine learning models to predict customer satisfaction (NPS) and developed dashboards that improved decision-making in the wholesale sector.</p>
 										    <p>Across all these experiences, one thing has stayed constant: I love creating data-driven solutions that bring real impact. Whether through automation, analytics, or modeling, I aim to combine technical precision with practical results.</p>
-											<p>You can find my full <a href="https://drive.google.com/file/d/1EOe2eUJzYmJujfdNDBXU3CzittO3iqWi/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><strong>CV here</strong></a>.  
+											<p>You can find my full <a href="https://drive.google.com/file/d/1g_Q4WD6GMJLMGaqOqemaY8V7jNKYBkjJ/view?usp=sharing" target="_blank" rel="noopener noreferrer"><strong>CV here</strong></a>.  
   												My Master’s thesis, published in an international journal, is available
   												<a href="https://revistacaribena.com/ojs/index.php/rccs/article/view/3378" target="_blank" rel="noopener noreferrer"><strong>here</strong></a>.</p>
 
 										</section>
 
-							<!-- Section -->
-									<section>
+							<!-- Technical Skills -->
+									<section id="skills">
 									  <header class="major">
 									    <h2>Technical Skills</h2>
 									  </header>
@@ -182,13 +207,20 @@
 									  </div>
 									</section>
 								<!-- Experiences -->
-									<section>
-									  <header class="main">
-									    <h1>Professional Experiences</h1>
+									<section id="experiences">
+									  <header class="major">
+									    <h2>Professional Experiences</h2>
 									  </header>
+
+									  <!-- Data Rudder -->
+									  <h3 id="exp-datarudder">Data Rudder <span style="font-weight:400;">— Data Scientist | Remote | Nov 2025 – Present</span></h3>
+									  <ul>
+									    <li>Developed fraud prevention models using LightGBM and XGBoost with automated hyperparameter tuning, contributing to the prevention of over R$1.8M in fraudulent transactions.</li>
+									    <li>Designed temporally consistent fraud labeling strategies for historical transaction data, blending confirmed fraud cases with behavior-based heuristics to maximize coverage and model reliability.</li>
+									  </ul>
 									
 									  <!-- Paipe.co -->
-									  <h2 id="content">Paipe.co <span style="font-weight:400;">— Data Scientist | Remote | Nov 2024 – Present</span></h2>
+									  <h3 id="exp-paipe">Paipe.co <span style="font-weight:400;">— Data Scientist | Remote | Nov 2024 – Nov 2025</span></h3>
 									  <ul>
 									    <li>Implemented a hybrid recommendation system based on Machine Learning, analyzing 1M+ records and generating increased sales for target clients.</li>
 									    <li>Applied time series models and Granger causality tests on 3+ years of data to quantify the impact of macroeconomic variables on sales.</li>
@@ -197,14 +229,14 @@
 									  </ul>
 									
 									  <!-- Datagro -->
-									  <h2 id="content">Datagro — Agricultural Consulting <span style="font-weight:400;">| Data Scientist | Recife, Brazil | Jul 2024 – Nov 2024</span></h2>
+									  <h3 id="exp-datagro">Datagro — Agricultural Consulting <span style="font-weight:400;">| Data Scientist | Recife, Brazil | Jul 2024 – Nov 2024</span></h3>
 									  <ul>
 									    <li>Automated data collection using Python, eliminating manual tasks and accelerating delivery time by 75%.</li>
 									    <li>Applied regression models to measure the effects of tax variations on sales and revenue, providing evidence for strategic decision-making.</li>
 									  </ul>
 									
 									  <!-- Itaú -->
-									  <h2 id="content">Itaú Bank <span style="font-weight:400;">— Data / Process Analyst | Remote | Feb 2022 – Aug 2023</span></h2>
+									  <h3 id="exp-itau">Itaú Bank <span style="font-weight:400;">— Data / Process Analyst | Remote | Feb 2022 – Aug 2023</span></h3>
 									  <ul>
 									    <li>Developed Machine Learning models to predict customer satisfaction based on NPS survey data.</li>
 									    <li>Built product and churn dashboards for the wholesale segment, supporting managers in improving customer experience and increasing NPS.</li>
@@ -212,13 +244,13 @@
 									  </ul>
 										
 									   <!-- Teaching Assistant -->
-									  <h2 id="content">Teaching Assistant  <span style="font-weight:400;">— Intern| Recife, Brazil | Jan 2021 – Jun 2021</span></h2>
+									  <h3 id="exp-teaching">Teaching Assistant <span style="font-weight:400;">— Intern | Recife, Brazil | Jan 2021 – Jun 2021</span></h3>
 									  <ul>
 									    <li>Taught undergraduate students Regional Economics classes. In addition to it aided undergraduate students with Simple and Multiple Linear Regression Models.</li>
 									  </ul>
 
 									  <!-- Revenue Service Office -->
-									  <h2 id="content">Revenue Service Office (Receita Federal) <span style="font-weight:400;">— Intern| Recife, Brazil | May 2016 – May 2017</span></h2>
+									  <h3 id="exp-receita">Revenue Service Office (Receita Federal) <span style="font-weight:400;">— Intern | Recife, Brazil | May 2016 – May 2017</span></h3>
 									  <ul>
 									    <li>Analyzed tax calculations, prepared income tax and served in administrative area and advised customers online on debt negotiation.</li>
 									    
@@ -226,14 +258,14 @@
 									
 									</section>
 
-							<!-- Section -->
-								<section>
+							<!-- Projects -->
+								<section id="projects">
 									<header class="major">
-										<h1>Data Science Projects</h1>
+										<h2>Data Science Projects</h2>
 									</header>
 									<div class="posts">
 											<article>
-											<a href="#" class="image"><img src="images/petr-machacek-unsplash.jpg" alt="" /></a>
+											<a href="https://github.com/JonatasV/bank_marketing" class="image"><img src="images/petr-machacek-unsplash.jpg" alt="" /></a>
 											<h3>The Calling: Unveiling Telemarketing Insights for Bank Long-Term Deposits</h3>
 											<p>Telemarketing campaigns are more than just a tool for banks to facilitate transactions; they are a strategic approach to attract and retain customers. Financial institutions, like a retail bank in Portugal, use these campaigns to expand their customer base through direct marketing efforts. </p>
 											<p>This data serves as the foundation for predicting whether customers will choose to save money with the bank, guiding strategic decisions on which features to emphasize for maximizing customer engagement and revenue.</p>
@@ -250,7 +282,7 @@
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/abn_test_cover.jpg" alt="" /></a>
+											<a href="https://github.com/JonatasV/abn_test" class="image"><img src="images/abn_test_cover.jpg" alt="" /></a>
 											<h3>ClickQuest: Enhancing User Engagement through A/B/n Testing in Library Portal</h3>
 											<p>A/B/n testing is a powerful method in web design for optimizing webpage performance. This testing involves comparing multiple variations of a webpage element to identify the most effective design, layout, or content that yields the best results. </p>
 											<p>By randomly presenting different versions to users, organizations can make data-driven decisions by analyzing user interactions and behaviors. This iterative approach enables teams to refine and tailor web pages for enhanced user experience and increased engagement, making A/B/n testing an invaluable tool for achieving digital success.</p>
@@ -267,7 +299,7 @@
 											</ul>
 										</article>										
 										<article>
-											<a href="#" class="image"><img src="images/income_pred.jpg" alt="" /></a>
+											<a href="https://github.com/JonatasV/income_random_forest" class="image"><img src="images/income_pred.jpg" alt="" /></a>
 											<h3>IncomeForecaster: A Random Forest Odyssey</h3>
 											<p>Since personal income is influenced by various factors such as age, gender, and year, among others, this project aims to predict people’s income using Random Forest. </p>
 											<p>The end result was a succinct presentation that encapsulated crucial insights and responses obtained from the analysis, providing a deep comprehension of predicting people's income.</p>
@@ -284,7 +316,7 @@
 											</ul>
 										</article>										
 										<article>
-											<a href="#" class="image"><img src="images/fernando-de-noronha-sign.jpeg" alt="" /></a>
+											<a href="https://github.com/JonatasV/fernando_noronha_eda" class="image"><img src="images/fernando-de-noronha-sign.jpeg" alt="" /></a>
 											<h3>Between Numbers and Nature: Unraveling Fernando de Noronha's Tourism Through Data</h3>
 											<p>This project involved a data analysis using Python programming, GitHub, and advanced data analytics techniques. The focus was on examining data from Brazilian and foreign tourists visiting the stunning Fernando de Noronha Island between 2010 and 2016. Through meticulous exploration, intriguing patterns and significant correlations were unearthed, shedding light on the tourists' behavior. </p>
 											<p>The final outcome was a concise presentation encapsulating key insights and answers derived from the analysis, offering a profound understanding of tourist behavior during this period</p>
@@ -301,7 +333,7 @@
 											</ul>
 										</article>
                                                                          	<article>
-											<a href="#" class="image"><img src="images/restaurant-food-logo.jpg" alt="" /></a>
+											<a href="https://github.com/JonatasV/curry_company" class="image"><img src="images/restaurant-food-logo.jpg" alt="" /></a>
 											<h3>Development of a management panel for business with Streamlit</h3>
 											<p>In this project, the concepts of Python programming, data manipulation, strategic thinking and business logic, along with web development tools, Streamlit and Github, were used to develop a management panel with the main metrics of a delivery marketplace company food in India.</p>
 											<p>The end result of the project was a panel hosted in a Cloud environment through a link on the web. The panel can be accessed from any device with an Internet connection.</p>
@@ -318,7 +350,7 @@
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/toronto.jpg" alt="" /></a>
+											<a href="https://github.com/JonatasV/Robbery_Toronto" class="image"><img src="images/toronto.jpg" alt="" /></a>
 											<h3>Building a project mappings robbery in Toronto, Canada</h3>
 											<p>I used Python and Statistics techniques to clean and analyze data related to robberies and willing to map which neighborhoods are most dangerous in the biggest city in Canada. This is a good start to create public policies related to public safety.</p>
 											<h4>Tools used</h4>
@@ -332,7 +364,7 @@
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/ab_test.jpg" alt="" /></a>
+											<span class="image"><img src="images/ab_test.jpg" alt="" /></span>
 											<h3>A/B Test to help the Marketing team</h3>
 											<p>A/B testing is a way in which you can check the sales effectiveness of web pages in order to increase a company's ROI. Thus, this project is important to verify metrics in e-Commerce.</p>
 											<h4>Tools used</h4>
@@ -341,24 +373,19 @@
 												<li>Jupyter Notebook;</li>
 												<li>Github</li>
 											</ul>
-
-
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
 										</article>
 									</div>
 								</section>
 
 
 										<!-- Get in touch -->
-											<section>
+											<section id="contact">
 												<header class="major">
 													<h2>Get in touch</h2>
 												</header>
 												<p>Feel free to get in touch</p>
 												<ul class="contact">
-													<li class="icon solid fa-envelope"><a href="#">jonatasv@gmail.com</a></li>
+													<li class="icon solid fa-envelope"><a href="mailto:jonatasv@gmail.com">jonatasv@gmail.com</a></li>
 													<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/jonatas-vieira/">LinkedIn</a></li>
 												</ul>
 											</section>
