@@ -1,408 +1,568 @@
-<!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Data Science Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Jonatas Vieira | Data Science &amp; AI</title>
+  <meta name="description" content="Jonatas Vieira — Data Scientist working on fraud prevention, machine learning and AI. MSc in Economics, PhD candidate in Computer Engineering.">
+  <meta name="keywords" content="data science, machine learning, fraud prevention, AI, causal inference, Python">
 
-				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="#banner">Home</a></li>
-										<li><a href="#about">About Me</a></li>
-										<li><a href="#skills">Technical Skills</a></li>
-										<li><a href="#experiences">Professional Experiences</a></li>
-										<li><a href="#projects">Data Science Projects</a></li>
-										<li><a href="#contact">Get in touch</a></li>
-									</ul>
-								</nav>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Jonatas Vieira. Template: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-						</div>
-					</div>
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+  <!-- =======================================================
+  * Template Name: MinimalFolio
+  * Template URL: https://bootstrapmade.com/minimalfolio-bootstrap-portfolio-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>Data Science</strong> Portfolio</a>
-									<ul class="icons">
-									</ul>
-									<a href="#sidebar" class="toggle">Toggle</a>
-								</header>
+<body class="index-page">
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Welcome to my Data Science <br />
-											project portfolio</h1>
-										</header>
-										<p>Here you'll find a collection of projects that blend data, strategy, and real-world problem solving. Each one reflects how I approach challenges — with curiosity, structure, and a focus on impact.</p>
-										<p>You'll also get a glimpse of my professional journey and the methods I use to turn raw data into clear insights. Whether it's modeling, visualization, or analysis, this space brings it all together.</p>
-										<p>If something catches your eye or you'd like to collaborate, feel free to reach out through the links below. I'm always open to good conversations and new ideas.</p>
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-									</div>
-									<span class="image object">
-										<img src="images/Jonatas_perfil.jpg" alt=""/>
-									</span>
-								</section>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Jonatas Vieira</h1>
+      </a>
 
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
-								<!-- About me -->
-									<section id="about">
-										<header class="major">
-											<h2>About me</h2>
-										</header>
+    </div>
+  </header>
 
-										<!-- Content -->
-											<h3>Hello! I am Jonatas</h3>
+  <main class="main">
 
-											<p>I’m a Data Scientist with a Master’s in Economics from the Federal University of Pernambuco, and I’m currently pursuing a PhD in Computer Engineering, focusing on neural networks and their applications in forecasting and causal inference. I’m passionate about using data to untangle complex problems and turn them into clear, actionable strategies. Right now, I work at Paipe, where I focus on time series modeling to support strategic decisions.</p>
-  											<p>Before that, I honed my skills at Datagro, where I automated data pipelines in Python and ran econometric analyses to uncover financial insights — like returns and price elasticity. At Itaú Unibanco, one of Latin America’s largest banks, I built machine learning models to predict customer satisfaction (NPS) and developed dashboards that improved decision-making in the wholesale sector.</p>
-										    <p>Across all these experiences, one thing has stayed constant: I love creating data-driven solutions that bring real impact. Whether through automation, analytics, or modeling, I aim to combine technical precision with practical results.</p>
-											<p>You can find my full <a href="https://drive.google.com/file/d/1g_Q4WD6GMJLMGaqOqemaY8V7jNKYBkjJ/view?usp=sharing" target="_blank" rel="noopener noreferrer"><strong>CV here</strong></a>.  
-  												My Master’s thesis, published in an international journal, is available
-  												<a href="https://revistacaribena.com/ojs/index.php/rccs/article/view/3378" target="_blank" rel="noopener noreferrer"><strong>here</strong></a>.</p>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
 
-										</section>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-							<!-- Technical Skills -->
-									<section id="skills">
-									  <header class="major">
-									    <h2>Technical Skills</h2>
-									  </header>
-									  <div class="features">
-									    
-									    <!-- Programming -->
-									    <article>
-									      <span class="icon solid fa-code"></span>
-									      <div class="content">
-									        <h3>Programming</h3>
-									        <ul>
-									          <li>Python</li>
-									          <li>SQL</li>
-									          <li>Stata</li>
-									          <li>R</li>
-									        </ul>
-									      </div>
-									    </article>
-									
-									    <!-- Machine Learning -->
-									    <article>
-									      <span class="icon solid fa-brain"></span>
-									      <div class="content">
-									        <h3>Statistics & Machine Learning</h3>
-									        <ul>
-									          <li>Classification & Regression</li>
-									          <li>Clustering</li>
-									          <li>Time Series Analysis</li>
-									          <li>Neural Networks</li>
-											  <li>Descriptive statistics (location, dispersion, asymmetry, kurtosis, density)</li>
-									          <li>Causal Inference (DiD, event study)</li>
-											  <li>A/B Testing</li>
-											</ul>
-									      </div>
-									    </article>
-									
-									    <!-- Databases -->
-									    <article>
-									      <span class="icon solid fa-database"></span>
-									      <div class="content">
-									        <h3>Databases</h3>
-									        <ul>
-									          <li>PostgreSQL</li>
-									          <li>Hadoop</li>
-									          <li>DBeaver</li>
-									        </ul>
-									      </div>
-									    </article>
-									
-									    <!-- Cloud -->
-									    <article>
-									      <span class="icon solid fa-cloud"></span>
-									      <div class="content">
-									        <h3>Cloud</h3>
-									        <ul>
-									          <li>AWS (EC2, RDS)</li>
-									        </ul>
-									      </div>
-									    </article>
-									
-									    <!-- Business Intelligence -->
-									    <article>
-									      <span class="icon solid fa-chart-pie"></span>
-									      <div class="content">
-									        <h3>Business Intelligence</h3>
-									        <ul>
-									          <li>Metabase</li>
-									          <li>Tableau</li>
-									        </ul>
-									      </div>
-									    </article>
-									
-									    <!-- Tools -->
-									    <article>
-									      <span class="icon solid fa-toolbox"></span>
-									      <div class="content">
-									        <h3>Tools</h3>
-									        <ul>
-									          <li>Docker</li>
-									          <li>Alteryx</li>
-									          <li>Microsoft Office (Excel, PowerPoint, Word)</li>
-									        </ul>
-									      </div>
-									    </article>
-									
-									    <!-- Methodologies -->
-									    <article>
-									      <span class="icon solid fa-project-diagram"></span>
-									      <div class="content">
-									        <h3>Methodologies</h3>
-									        <ul>
-									          <li>CRISP-DM</li>
-									          <li>Lean</li>
-									          <li>Scrum</li>
-									          <li>Kanban</li>
-									        </ul>
-									      </div>
-									    </article>
-									
-									    <!-- Languages -->
-									    <!-- <article>
-									      <span class="icon solid fa-language"></span>
-									      <div class="content">
-									        <h3>Languages</h3>
-									        <ul>
-									          <li>English (Advanced)</li>
-									          <li>French (Intermediate)</li>
-									        </ul>
-									      </div>
-									    </article> -->
-									
-									  </div>
-									</section>
-								<!-- Experiences -->
-									<section id="experiences">
-									  <header class="major">
-									    <h2>Professional Experiences</h2>
-									  </header>
+        <div class="row align-items-center gx-5 gy-5">
 
-									  <!-- Data Rudder -->
-									  <h3 id="exp-datarudder">Data Rudder <span style="font-weight:400;">— Data Scientist | Remote | Nov 2025 – Present</span></h3>
-									  <ul>
-									    <li>Developed fraud prevention models using LightGBM and XGBoost with automated hyperparameter tuning, contributing to the prevention of over R$1.8M in fraudulent transactions.</li>
-									    <li>Designed temporally consistent fraud labeling strategies for historical transaction data, blending confirmed fraud cases with behavior-based heuristics to maximize coverage and model reliability.</li>
-									  </ul>
-									
-									  <!-- Paipe.co -->
-									  <h3 id="exp-paipe">Paipe.co <span style="font-weight:400;">— Data Scientist | Remote | Nov 2024 – Nov 2025</span></h3>
-									  <ul>
-									    <li>Implemented a hybrid recommendation system based on Machine Learning, analyzing 1M+ records and generating increased sales for target clients.</li>
-									    <li>Applied time series models and Granger causality tests on 3+ years of data to quantify the impact of macroeconomic variables on sales.</li>
-									    <li>Developed RFM models integrated into a dashboard, used by large companies in Brazil to segment thousands of customers and define sales targets.</li>
-									    <li>Built and optimized FastAPI endpoints integrated with PostgreSQL, enabling real-time queries for interactive sales and forecasting dashboards.</li>
-									  </ul>
-									
-									  <!-- Datagro -->
-									  <h3 id="exp-datagro">Datagro — Agricultural Consulting <span style="font-weight:400;">| Data Scientist | Recife, Brazil | Jul 2024 – Nov 2024</span></h3>
-									  <ul>
-									    <li>Automated data collection using Python, eliminating manual tasks and accelerating delivery time by 75%.</li>
-									    <li>Applied regression models to measure the effects of tax variations on sales and revenue, providing evidence for strategic decision-making.</li>
-									  </ul>
-									
-									  <!-- Itaú -->
-									  <h3 id="exp-itau">Itaú Bank <span style="font-weight:400;">— Data / Process Analyst | Remote | Feb 2022 – Aug 2023</span></h3>
-									  <ul>
-									    <li>Developed Machine Learning models to predict customer satisfaction based on NPS survey data.</li>
-									    <li>Built product and churn dashboards for the wholesale segment, supporting managers in improving customer experience and increasing NPS.</li>
-										<li>Implemented strategies for improvement of Open Banking for wholesale sector. Also, assisted in collecting data through forms from new customers for sharing in Open Banking.</li>  
-									  </ul>
-										
-									   <!-- Teaching Assistant -->
-									  <h3 id="exp-teaching">Teaching Assistant <span style="font-weight:400;">— Intern | Recife, Brazil | Jan 2021 – Jun 2021</span></h3>
-									  <ul>
-									    <li>Taught undergraduate students Regional Economics classes. In addition to it aided undergraduate students with Simple and Multiple Linear Regression Models.</li>
-									  </ul>
+          <div class="col-lg-7">
+            <div class="intro" data-aos="fade-right" data-aos-delay="150">
+              <div class="eyebrow d-inline-flex align-items-center gap-2 mb-3">
+                <span class="dot"></span>
+                <span class="text">Data Scientist · Machine Learning &amp; AI</span>
+              </div>
 
-									  <!-- Revenue Service Office -->
-									  <h3 id="exp-receita">Revenue Service Office (Receita Federal) <span style="font-weight:400;">— Intern | Recife, Brazil | May 2016 – May 2017</span></h3>
-									  <ul>
-									    <li>Analyzed tax calculations, prepared income tax and served in administrative area and advised customers online on debt negotiation.</li>
-									    
-									  </ul>
-									
-									</section>
+              <h1 class="display-heading mb-3">
+                Turning data into decisions — from fraud prevention to causal insights
+              </h1>
 
-							<!-- Projects -->
-								<section id="projects">
-									<header class="major">
-										<h2>Data Science Projects</h2>
-									</header>
-									<div class="posts">
-											<article>
-											<a href="https://github.com/JonatasV/bank_marketing" class="image"><img src="images/petr-machacek-unsplash.jpg" alt="" /></a>
-											<h3>The Calling: Unveiling Telemarketing Insights for Bank Long-Term Deposits</h3>
-											<p>Telemarketing campaigns are more than just a tool for banks to facilitate transactions; they are a strategic approach to attract and retain customers. Financial institutions, like a retail bank in Portugal, use these campaigns to expand their customer base through direct marketing efforts. </p>
-											<p>This data serves as the foundation for predicting whether customers will choose to save money with the bank, guiding strategic decisions on which features to emphasize for maximizing customer engagement and revenue.</p>
-											<h4>Tools used</h4>
-											<ul>
-												<li>Jupyter Notebook</li>
-												<li>Pandas, Numpy, Statsmodels, Scipy</li>
-												<li>Terminal</li>
-												<li>Github</li>
-												<li>PowerPoint</li>
-											</ul>
-											<ul class="actions">
-												<li><a href="https://github.com/JonatasV/bank_marketing" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="https://github.com/JonatasV/abn_test" class="image"><img src="images/abn_test_cover.jpg" alt="" /></a>
-											<h3>ClickQuest: Enhancing User Engagement through A/B/n Testing in Library Portal</h3>
-											<p>A/B/n testing is a powerful method in web design for optimizing webpage performance. This testing involves comparing multiple variations of a webpage element to identify the most effective design, layout, or content that yields the best results. </p>
-											<p>By randomly presenting different versions to users, organizations can make data-driven decisions by analyzing user interactions and behaviors. This iterative approach enables teams to refine and tailor web pages for enhanced user experience and increased engagement, making A/B/n testing an invaluable tool for achieving digital success.</p>
-											<h4>Tools used</h4>
-											<ul>
-												<li>Jupyter Notebook</li>
-												<li>Pandas, Numpy, Statsmodels, Scipy</li>
-												<li>Terminal</li>
-												<li>Github</li>
-												<li>PowerPoint</li>
-											</ul>
-											<ul class="actions">
-												<li><a href="https://github.com/JonatasV/abn_test" class="button">More</a></li>
-											</ul>
-										</article>										
-										<article>
-											<a href="https://github.com/JonatasV/income_random_forest" class="image"><img src="images/income_pred.jpg" alt="" /></a>
-											<h3>IncomeForecaster: A Random Forest Odyssey</h3>
-											<p>Since personal income is influenced by various factors such as age, gender, and year, among others, this project aims to predict people’s income using Random Forest. </p>
-											<p>The end result was a succinct presentation that encapsulated crucial insights and responses obtained from the analysis, providing a deep comprehension of predicting people's income.</p>
-											<h4>Tools used</h4>
-											<ul>
-												<li>Jupyter Notebook</li>
-												<li>Pandas, Numpy, Matplotlib, Seaborn, Scipy, Sklearn</li>
-												<li>Terminal</li>
-												<li>Github</li>
-												<li>PowerPoint</li>
-											</ul>
-											<ul class="actions">
-												<li><a href="https://github.com/JonatasV/income_random_forest" class="button">More</a></li>
-											</ul>
-										</article>										
-										<article>
-											<a href="https://github.com/JonatasV/fernando_noronha_eda" class="image"><img src="images/fernando-de-noronha-sign.jpeg" alt="" /></a>
-											<h3>Between Numbers and Nature: Unraveling Fernando de Noronha's Tourism Through Data</h3>
-											<p>This project involved a data analysis using Python programming, GitHub, and advanced data analytics techniques. The focus was on examining data from Brazilian and foreign tourists visiting the stunning Fernando de Noronha Island between 2010 and 2016. Through meticulous exploration, intriguing patterns and significant correlations were unearthed, shedding light on the tourists' behavior. </p>
-											<p>The final outcome was a concise presentation encapsulating key insights and answers derived from the analysis, offering a profound understanding of tourist behavior during this period</p>
-											<h4>Tools used</h4>
-											<ul>
-												<li>Python</li>
-												<li>Pandas, Numpy, Matplotlib </li>
-												<li>Terminal</li>
-												<li>Github</li>
-												<li>PowerPoint</li>
-											</ul>
-											<ul class="actions">
-												<li><a href="https://github.com/JonatasV/fernando_noronha_eda" class="button">More</a></li>
-											</ul>
-										</article>
-                                                                         	<article>
-											<a href="https://github.com/JonatasV/curry_company" class="image"><img src="images/restaurant-food-logo.jpg" alt="" /></a>
-											<h3>Development of a management panel for business with Streamlit</h3>
-											<p>In this project, the concepts of Python programming, data manipulation, strategic thinking and business logic, along with web development tools, Streamlit and Github, were used to develop a management panel with the main metrics of a delivery marketplace company food in India.</p>
-											<p>The end result of the project was a panel hosted in a Cloud environment through a link on the web. The panel can be accessed from any device with an Internet connection.</p>
-											<h4>Tools used</h4>
-											<ul>
-												<li>Python</li>
-												<li>Terminal</li>
-												<li>Streamlit</li>
-												<li>Streamlit Cloud</li>
-												<li>Github</li>
-											</ul>
-											<ul class="actions">
-												<li><a href="https://github.com/JonatasV/curry_company" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="https://github.com/JonatasV/Robbery_Toronto" class="image"><img src="images/toronto.jpg" alt="" /></a>
-											<h3>Building a project mappings robbery in Toronto, Canada</h3>
-											<p>I used Python and Statistics techniques to clean and analyze data related to robberies and willing to map which neighborhoods are most dangerous in the biggest city in Canada. This is a good start to create public policies related to public safety.</p>
-											<h4>Tools used</h4>
-											<ul>
-												<li>Python, Pandas, Matplotlib Numpy;</li>
-												<li>Jupyter Notebook;</li>
-												<li>Github</li>
-											</ul>
-											<ul class="actions">
-												<li><a href="https://github.com/JonatasV/Robbery_Toronto" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<span class="image"><img src="images/ab_test.jpg" alt="" /></span>
-											<h3>A/B Test to help the Marketing team</h3>
-											<p>A/B testing is a way in which you can check the sales effectiveness of web pages in order to increase a company's ROI. Thus, this project is important to verify metrics in e-Commerce.</p>
-											<h4>Tools used</h4>
-											<ul>
-												<li>Python, Pandas, Matplotlib Numpy;</li>
-												<li>Jupyter Notebook;</li>
-												<li>Github</li>
-											</ul>
-										</article>
-									</div>
-								</section>
+              <p class="lead mb-4">
+                I build machine learning models that work in production, grounded in solid statistics and economics.
+                Today I focus on fraud prevention in financial transactions, and I'm expanding into AI-powered applications.
+              </p>
 
+              <div class="cta-group d-flex flex-wrap align-items-center gap-3" data-aos="zoom-in" data-aos-delay="250">
+                <a href="#portfolio" class="btn btn-ghost">
+                  View Projects
+                  <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+                <a href="#contact" class="link-underline">
+                  Get in touch
+                  <i class="bi bi-envelope ms-2"></i>
+                </a>
+              </div>
 
-										<!-- Get in touch -->
-											<section id="contact">
-												<header class="major">
-													<h2>Get in touch</h2>
-												</header>
-												<p>Feel free to get in touch</p>
-												<ul class="contact">
-													<li class="icon solid fa-envelope"><a href="mailto:jonatasv@gmail.com">jonatasv@gmail.com</a></li>
-													<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/jonatas-vieira/">LinkedIn</a></li>
-												</ul>
-											</section>
-						</div>
-					</div>
+              <div class="meta mt-4 d-flex flex-wrap align-items-center gap-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="meta-item d-flex align-items-center gap-2">
+                  <i class="bi bi-geo-alt"></i>
+                  <span>Recife, Brazil</span>
+                </div>
+                <div class="meta-item d-flex align-items-center gap-2">
+                  <i class="bi bi-globe"></i>
+                  <span>Open to remote work worldwide</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
-			</div>
+          <div class="col-lg-5">
+            <figure class="portrait-wrap position-relative" data-aos="fade-left" data-aos-delay="200">
+              <img src="assets/img/profile.webp" alt="Portrait of Jonatas Vieira" class="img-fluid portrait-img">
+              <figcaption class="visually-hidden">Jonatas Vieira</figcaption>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+              <div class="badge note" data-aos="zoom-in" data-aos-delay="300">
+                <i class="bi bi-shield-check"></i>
+                <span>Fraud prevention · ML in production</span>
+              </div>
+            </figure>
+          </div>
 
-	</body>
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Economist by training, data scientist by practice</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row intro-wrap">
+          <div class="col-lg-9" data-aos="fade-right" data-aos-delay="150">
+            <div class="intro-content">
+              <span class="eyebrow">Hello there</span>
+              <h2 class="headline">Hi, I’m Jonatas — a data scientist who cares about models that actually move the needle</h2>
+              <p class="lead">
+                I hold a Master’s in Economics from the Federal University of Pernambuco and I’m a PhD candidate in Computer Engineering,
+                researching how machine learning and causal inference can work together on complex temporal data.
+              </p>
+              <p>
+                Right now I work at Data Rudder, building machine learning models for fraud prevention in financial transactions.
+                Before that, I built recommendation systems, forecasting models and APIs at Paipe, applied econometrics at Datagro,
+                and developed NPS prediction models and dashboards at Itaú Unibanco, one of Latin America’s largest banks.
+              </p>
+
+              <div class="cta-group">
+                <a href="#portfolio" class="btn-ghost">
+                  View My Work <i class="bi bi-arrow-down"></i>
+                </a>
+                <a href="https://drive.google.com/file/d/1g_Q4WD6GMJLMGaqOqemaY8V7jNKYBkjJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="link-underline">
+                  Download Resume <i class="bi bi-download"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Highlights -->
+        <div class="skills-wrap">
+          <div class="row g-4">
+            <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+              <div class="skill-item">
+                <i class="bi bi-shield-check"></i>
+                <h3>R$1.8M+</h3>
+                <p>in fraudulent transactions prevented by models I built</p>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="180">
+              <div class="skill-item">
+                <i class="bi bi-journal-text"></i>
+                <h3>Published</h3>
+                <p>Master’s research published in an <a href="https://revistacaribena.com/ojs/index.php/rccs/article/view/3378" target="_blank" rel="noopener noreferrer">international journal</a></p>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+              <div class="skill-item">
+                <i class="bi bi-mortarboard"></i>
+                <h3>PhD</h3>
+                <p>Candidate in Computer Engineering — ML &amp; causal inference</p>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="skill-item">
+                <i class="bi bi-globe-americas"></i>
+                <h3>International</h3>
+                <p>Delivering ML projects for U.S. clients, fully remote</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Highlights -->
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Experience, education and the tools I use every day</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="nav nav-pills resume-navigation justify-content-center" id="resume-resume-tabs" role="tablist" data-aos="fade-up" data-aos-delay="200">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="resume-experience-tab" data-bs-toggle="pill" data-bs-target="#resume-experience" type="button" role="tab" aria-controls="resume-experience" aria-selected="true">
+                  <span class="nav-number">01</span>
+                  <span class="nav-label">Experience</span>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="resume-education-tab" data-bs-toggle="pill" data-bs-target="#resume-education" type="button" role="tab" aria-controls="resume-education" aria-selected="false">
+                  <span class="nav-number">02</span>
+                  <span class="nav-label">Education</span>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="resume-skills-tab" data-bs-toggle="pill" data-bs-target="#resume-skills" type="button" role="tab" aria-controls="resume-skills" aria-selected="false">
+                  <span class="nav-number">03</span>
+                  <span class="nav-label">Skills</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tab-content resume-content" id="resume-resume-tabContent">
+
+          <!-- Experience -->
+          <div class="tab-pane fade show active" id="resume-experience" role="tabpanel" aria-labelledby="resume-experience-tab" tabindex="0" data-aos="fade-up" data-aos-delay="300">
+            <div class="section-intro">
+              <h2>Professional Experience</h2>
+              <p>From analytics in banking to machine learning in production.</p>
+            </div>
+
+            <div class="experience-grid">
+              <div class="experience-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="item-header">
+                  <div class="position-info">
+                    <h3>Data Scientist</h3>
+                    <div class="company">Data Rudder · Remote</div>
+                  </div>
+                  <div class="period">Nov 2025 - Present</div>
+                </div>
+                <div class="item-content">
+                  <p>Developed fraud prevention models with LightGBM and XGBoost and automated hyperparameter tuning, contributing to the prevention of over R$1.8M in fraudulent transactions. Designed temporally consistent fraud labeling strategies that blend confirmed fraud cases with behavior-based heuristics.</p>
+                </div>
+              </div>
+
+              <div class="experience-item" data-aos="fade-up" data-aos-delay="450">
+                <div class="item-header">
+                  <div class="position-info">
+                    <h3>Data Scientist</h3>
+                    <div class="company">Paipe.co · Remote</div>
+                  </div>
+                  <div class="period">Nov 2024 - Nov 2025</div>
+                </div>
+                <div class="item-content">
+                  <p>Built a hybrid ML recommendation system over 1M+ records that increased sales for target clients. Applied time series models and Granger causality to quantify macroeconomic effects on sales, built RFM segmentation used by large Brazilian companies, and shipped FastAPI + PostgreSQL endpoints for real-time dashboards.</p>
+                </div>
+              </div>
+
+              <div class="experience-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="item-header">
+                  <div class="position-info">
+                    <h3>Data Scientist</h3>
+                    <div class="company">Datagro · Recife, Brazil</div>
+                  </div>
+                  <div class="period">Jul 2024 - Nov 2024</div>
+                </div>
+                <div class="item-content">
+                  <p>Automated data collection in Python, cutting delivery time by 75%, and applied regression models to measure the effect of tax changes on sales and revenue.</p>
+                </div>
+              </div>
+
+              <div class="experience-item" data-aos="fade-up" data-aos-delay="550">
+                <div class="item-header">
+                  <div class="position-info">
+                    <h3>Data / Process Analyst</h3>
+                    <div class="company">Itaú Unibanco · Remote</div>
+                  </div>
+                  <div class="period">Feb 2022 - Aug 2023</div>
+                </div>
+                <div class="item-content">
+                  <p>Developed ML models to predict customer satisfaction from NPS surveys and built product and churn dashboards that helped wholesale managers improve customer experience.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div class="tab-pane fade" id="resume-education" role="tabpanel" aria-labelledby="resume-education-tab" tabindex="0" data-aos="fade-up" data-aos-delay="300">
+            <div class="section-intro">
+              <h2>Educational Background</h2>
+              <p>Economics and computer engineering — the two halves of how I approach data.</p>
+            </div>
+
+            <div class="education-list">
+              <div class="education-entry" data-aos="fade-up" data-aos-delay="400">
+                <div class="degree-year">PhD</div>
+                <div class="degree-details">
+                  <h3>PhD in Computer Engineering (in progress)</h3>
+                  <div class="institution">University of Pernambuco (UPE)</div>
+                  <p>Research on integrating machine learning with causal inference methods for complex temporal data.</p>
+                </div>
+              </div>
+
+              <div class="education-entry" data-aos="fade-up" data-aos-delay="450">
+                <div class="degree-year">MSc</div>
+                <div class="degree-details">
+                  <h3>Master’s in Economics</h3>
+                  <div class="institution">Federal University of Pernambuco (UFPE)</div>
+                  <p>Applied econometrics and causal inference (difference-in-differences, event study). Thesis <a href="https://revistacaribena.com/ojs/index.php/rccs/article/view/3378" target="_blank" rel="noopener noreferrer">published in an international journal</a>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills -->
+          <div class="tab-pane fade" id="resume-skills" role="tabpanel" aria-labelledby="resume-skills-tab" tabindex="0" data-aos="fade-up" data-aos-delay="300">
+            <div class="section-intro">
+              <h2>Core Competencies</h2>
+              <p>The methods and tools behind my work.</p>
+            </div>
+
+            <div class="skills-categories">
+              <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                <h3>Machine Learning &amp; Statistics</h3>
+                <div class="skill-tags">
+                  <span class="skill-tag">Classification &amp; Regression</span>
+                  <span class="skill-tag">XGBoost / LightGBM / CatBoost</span>
+                  <span class="skill-tag">Fraud Detection</span>
+                  <span class="skill-tag">Recommendation Systems</span>
+                  <span class="skill-tag">Time Series</span>
+                  <span class="skill-tag">Neural Networks</span>
+                  <span class="skill-tag">Causal Inference (DiD, event study)</span>
+                  <span class="skill-tag">A/B Testing</span>
+                </div>
+              </div>
+
+              <div class="skill-category" data-aos="fade-up" data-aos-delay="450">
+                <h3>Programming &amp; Data</h3>
+                <div class="skill-tags">
+                  <span class="skill-tag">Python</span>
+                  <span class="skill-tag">SQL</span>
+                  <span class="skill-tag">R</span>
+                  <span class="skill-tag">Stata</span>
+                  <span class="skill-tag">Snowflake</span>
+                  <span class="skill-tag">PostgreSQL</span>
+                  <span class="skill-tag">Hadoop</span>
+                </div>
+              </div>
+
+              <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+                <h3>Engineering &amp; Tools</h3>
+                <div class="skill-tags">
+                  <span class="skill-tag">FastAPI</span>
+                  <span class="skill-tag">Docker</span>
+                  <span class="skill-tag">AWS (EC2, RDS)</span>
+                  <span class="skill-tag">Git &amp; GitHub</span>
+                  <span class="skill-tag">Streamlit</span>
+                  <span class="skill-tag">Tableau</span>
+                  <span class="skill-tag">Metabase</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        <p>Selected work — each one links to its code on GitHub</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 projects-row" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-card">
+              <div class="image-container">
+                <img src="assets/img/projects/abn-test.webp" class="img-fluid" alt="A/B/n testing project">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <a href="https://github.com/JonatasV/abn_test" target="_blank" rel="noopener noreferrer" class="details-link" title="View on GitHub">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <h3><a href="https://github.com/JonatasV/abn_test" target="_blank" rel="noopener noreferrer">ClickQuest: A/B/n Testing</a></h3>
+                <p>Experiment design and statistical testing to choose the best-performing variant of a library portal page.</p>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-card">
+              <div class="image-container">
+                <img src="assets/img/projects/bank-marketing.webp" class="img-fluid" alt="Bank telemarketing project">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <a href="https://github.com/JonatasV/bank_marketing" target="_blank" rel="noopener noreferrer" class="details-link" title="View on GitHub">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <h3><a href="https://github.com/JonatasV/bank_marketing" target="_blank" rel="noopener noreferrer">The Calling: Bank Telemarketing</a></h3>
+                <p>Predicting which customers subscribe to long-term deposits to focus a bank’s campaign efforts.</p>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-card">
+              <div class="image-container">
+                <img src="assets/img/projects/curry-company.webp" class="img-fluid" alt="Streamlit management dashboard">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <a href="https://github.com/JonatasV/curry_company" target="_blank" rel="noopener noreferrer" class="details-link" title="View on GitHub">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <h3><a href="https://github.com/JonatasV/curry_company" target="_blank" rel="noopener noreferrer">Delivery Marketplace Dashboard</a></h3>
+                <p>Management dashboard built with Streamlit and deployed to the cloud for a food delivery company.</p>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Open to conversations about data science, AI and new projects</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="contact-sidebar">
+              <div class="contact-header">
+                <h3>Get in Touch</h3>
+                <p>The fastest way to reach me is by email or LinkedIn.</p>
+              </div>
+
+              <div class="contact-methods">
+                <div class="contact-method">
+                  <div class="contact-icon">
+                    <i class="bi bi-envelope"></i>
+                  </div>
+                  <div class="contact-details">
+                    <span class="method-label">Email</span>
+                    <p><a href="mailto:jonatasv@gmail.com">jonatasv@gmail.com</a></p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="contact-icon">
+                    <i class="bi bi-linkedin"></i>
+                  </div>
+                  <div class="contact-details">
+                    <span class="method-label">LinkedIn</span>
+                    <p><a href="https://www.linkedin.com/in/jonatas-vieira/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jonatas-vieira</a></p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="contact-icon">
+                    <i class="bi bi-github"></i>
+                  </div>
+                  <div class="contact-details">
+                    <span class="method-label">GitHub</span>
+                    <p><a href="https://github.com/JonatasV" target="_blank" rel="noopener noreferrer">github.com/JonatasV</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Jonatas Vieira</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/jonatas-vieira/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/JonatasV" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href="mailto:jonatasv@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
-
-
-
